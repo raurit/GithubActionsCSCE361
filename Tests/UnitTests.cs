@@ -34,7 +34,7 @@ public class Subtraction
     [TestMethod]
     public void Subtract_Valid_AURIT()
     {
-        Assert.AreEqual(0, Program.Subtract("4", "2"));
+        Assert.AreEqual(2, Program.Subtract("4", "2"));
         Assert.AreEqual(0, Program.Subtract("5", "5"));
         Assert.AreEqual(-1, Program.Subtract("55", "56"));
     }
@@ -91,7 +91,7 @@ public class Division
     public void Divide_Valid_AURIT()
     {
         Assert.AreEqual(2, Program.Divide("2", "1"));
-        Assert.AreEqual(0.5, Program.Divide("3", "2"));
+        Assert.AreEqual(1.5, Program.Divide("3", "2"));
         Assert.AreEqual(5, Program.Divide("125", "25"));
     }
 
